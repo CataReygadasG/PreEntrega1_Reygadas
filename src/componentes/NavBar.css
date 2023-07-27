@@ -1,51 +1,54 @@
 @import url('https://fonts.googleapis.com/css2?family=Nerko+One&family=Quicksand&family=Raleway:wght@100&display=swap');
-.Cabecera{
+body{
+    background-color: rgb(165, 153, 116);
+}
+.NavBar{
     width:100%;
-    background-color: black;
+    background-color:rgb(94, 86, 67);;
     padding:1em;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
-    color: white;
+    color: #fff;
     font-family: 'Raleway', sans-serif;
-
+    margin: 0;
     
 }
-.Cabecera-h1{
+.NavBar-h1{
    
 }
-.Cabecera-a{}
+.NavBar-a{}
 
-.Cabecera-button{
+.NavBar-button{
     
     display: none;
 }
-.Cabecera-svg{
+.NavBar-svg{
     width:2em;
     height:2em;
     color: white;
     fill: black;
     
 }
-.Cabecera-nav{
+.NavBar-nav{
     
 }
-.Cabecera-ul{
+.NavBar-ul{
     display: flex;
     flex-flow: row nowrap;
     justify-content: flex-end;
     align-items: center;
 }
-.Cabecera-li{
+.NavBar-li{
     margin: 0 .5em;
 }
 @media screen and (max-width:480px){
 
-    .Cabecera-button{
+    .NavBar-button{
         display: flex;
     }
-    .Cabecera-nav{
+    .NavBar-nav{
         width:100%;
         display: flex;
         flex-flow: column nowrap;
@@ -56,14 +59,14 @@
         overflow: hidden;
         transition: all .5s ease;
     }
-    .Cabecera-nav.isActive{
+    .NavBar-nav.isActive{
         height:50vh;
         opacity: 1;
     }
-    .Cabecera-ul{
+    .NavBar-ul{
         flex-direction: column;
     }
-    .Cabecera-li{
+    .NavBar-li{
         margin: .5em 0;
     }
 }

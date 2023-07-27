@@ -1,5 +1,5 @@
 import './App.css'
-import Cabecera from './componentes/Cabecera'
+import NavBar from './componentes/NavBar'
 import ItemListContainer from "./componentes/ItemListContainer"
 
 
@@ -7,8 +7,10 @@ function App() {
 
   return(
     <> 
-      <Cabecera />
-      <ItemListContainer greeting="Bienvenido a Joyeria Sagitario"/>  
+      <NavBar />
+      <ItemListContainer greeting="Somos un Joyería que cuenta con 35 años de experiencia. Nuestro
+                principal objetivo es entregar a nuestros clientes productos de
+                calidad y una cálida atención como se lo merecen"/>  
 
     </>
    
